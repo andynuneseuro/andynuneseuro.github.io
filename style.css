@@ -1,0 +1,45 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+header, main, footer {
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.whatsapp-button {
+    display: inline-block;
+    padding: 15px 30px; /* Increase padding for a larger button */
+    background-color: #25D366; /* WhatsApp green color */
+    color: white;
+    text-decoration: none;
+    border-radius: 10px; /* Increase border radius for a rounder button */
+    font-size: 18px; /* Increase font size for the button text */
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.gold {
+    color: gold;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    header, main, footer {
+        padding: 10px;
+    }
+}
